@@ -9,6 +9,9 @@
 \RequirePackage{cite}
 \RequirePackage[pdftex]{graphicx}
 \RequirePackage{epstopdf}
+\RequirePackage{pdflscape}
+\RequirePackage{multicol}
+\RequirePackage{xifthen}
 
 \LoadClass{article}
 \setlength\parindent{0pt}
@@ -68,5 +71,33 @@
 	\vfill
 	\end{center}
 	\end{titlepage}
+}
+
+\newcommand{\unswantiplagdec}[1][]{
+    \section*{Declaration}
+    \pagestyle{empty}
+    I declare that this assessment item is my own work, except where acknowledged, and has
+    not been submitted for academic credit elsewhere.
+    \ifx \\#1\\
+    \else
+    
+        The assessor of this item may, for the purpose of assessing this item: 
+        
+        Reproduce this assessment item and provide a copy to another member of the University;
+        and/or, 
+        
+        Communicate a copy of this assessment item to a plagiarism checking service (which
+        may then retain a copy of the assessment item on its database for the purpose of future
+        plagiarism checking).  
+             
+    \fi
+    
+    I certify that I have read and understood the University Rules in respect of Student Academic Misconduct. \\[5cm]
+    \rule{50mm}{.1pt} \hfill \rule{45mm}{.1pt} \\
+    \@author \hfill Date \\
+    \@studentno
+    \newpage
+    \pagestyle{fancy}
+    \setcounter{page}{1}
 }
 \endinput
