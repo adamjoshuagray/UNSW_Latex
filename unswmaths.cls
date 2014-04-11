@@ -10,13 +10,6 @@
 \RequirePackage[pdftex]{graphicx}
 \RequirePackage{epstopdf}
 
-\newtheorem{lemma}{Lemma}
-\newtheorem{proposition}{Proposition}
-\newtheorem{theorem}{Theorem}
-\newtheorem{definition}{Definition}
-\newtheorem{corollary}{Corollary}
-\newtheorem{remark}{Remark}
-
 \LoadClass{article}
 \setlength\parindent{0pt}
 \setlength{\parskip}{5mm plus4mm minus3mm}
@@ -76,3 +69,4 @@
 	\end{center}
 	\end{titlepage}
 }
+\endinput
