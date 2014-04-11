@@ -27,7 +27,7 @@
 \pagestyle{fancy}
 \fancyfoot[l]{\@author}
 \fancyfoot[r]{\today}
-\fancyhead[l]{The University of New South Wales}
+\fancyhead[l]{University of New South Wales}
 \fancyhead[r]{\@subject}
 
 
