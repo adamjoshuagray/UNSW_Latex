@@ -4,7 +4,7 @@
 \RequirePackage{amsmath}
 \RequirePackage{amssymb}
 \RequirePackage{amsthm}
-\RequirePackage[a4paper]{geometry}
+\RequirePackage[a4paper, top=2cm, bottom=2cm, left=1.5cm, right=1.5cm]{geometry}
 \RequirePackage{fancyhdr}
 \RequirePackage{cite}
 \RequirePackage[pdftex]{graphicx}
