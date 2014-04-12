@@ -15,7 +15,7 @@
 
 \LoadClass{article}
 \setlength\parindent{0pt}
-\setlength{\parskip}{5mm plus4mm minus3mm}
+%\setlength{\parskip}{5mm plus4mm minus3mm}
 
 \def\author#1{\def\@author{#1}}
 \def\subject#1{\def\@subject{#1}}
