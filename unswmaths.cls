@@ -48,7 +48,7 @@
 	\HRule \\[0.4cm]
 	{ \huge \bfseries \@title}\\[0.2cm]
 	{ \Large \@subject }\\[0.2cm]
-	\HRule \\[1.5cm]
+	\HRule \\[0.5cm]
 	% Author and supervisor
 	\begin{minipage}[t]{0.4\textwidth}
 	\begin{flushleft} \large
