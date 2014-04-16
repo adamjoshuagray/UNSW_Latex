@@ -3,6 +3,7 @@
 \RequirePackage{amsmath}
 \RequirePackage{amssymb}
 \RequirePackage{bbm}
+\RequirePackage{tikz}
 
 %Analysis
 \newcommand{\Rl}{\mathbb{R}}
@@ -34,5 +35,21 @@
 \newcommand{\E}[1]{\mathbb{E} \left[ #1 \right]}
 \newcommand{\Var}[1]{\operatorname{Var} \left[ #1 \right] }
 \newcommand{\Cov}[2]{\operatorname{Cov} \left[ #1, #2 \right] }
+
+%Commutative Diagrams
+
+\newcommand{\comtri}[5][d,e]{
+    \begin{tikzpicture}
+        \draw (0.5, 4.5) node {#1};
+        \draw (0.5, 4.5) circle [radius = 0.5];
+        \draw (1,4.5) -- (4, 4.5);
+        \draw (4.5, 4.5) node {#2};        
+        \draw (4.5, 4.5) circle [radius = 0.5];
+        \draw (4.5, 0.5) node {#3};        
+        \draw (4.5, 0.5) circle [radius = 0.5];
+        \draw (4.5, 4) -- (4.5, 1);
+        \draw (0.854, 4.146) -- (4.146, 0.854);
+    \end{tikzpicture}
+}
 
 \endinput

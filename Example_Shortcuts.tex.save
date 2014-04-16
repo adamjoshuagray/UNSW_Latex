@@ -33,12 +33,11 @@ This is the document
 	\lra \\
 	\la \\
 	\ra \\
-	\lla \\
-	\E{X} \\
-	\Var{Y} \\
-	\Cov{X}{Y} \\
+	\lla \\	\E{X} \\
+	\Var{X} \\
+	\Cov{X,Y} \\
+	\seq{\alpha} \\
+	\set{\beta}[k][1][K]
 \end{align*}
-
-\comtri{a}{b}{c}
 
 \end{document}
